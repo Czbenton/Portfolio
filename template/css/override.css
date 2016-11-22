@@ -24,6 +24,8 @@
 
 .portfolio_title{
     font-size: 3rem;
+    text-shadow: 1px 1px black;
+    font-variant: small-caps;
 }
 
 .no-margin{
