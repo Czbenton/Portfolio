@@ -21,3 +21,11 @@
 .portfolio_title{
     font-size: 3rem;
 }
+
+.no-margin{
+    margin: 0;
+}
+
+.no-margin_bot{
+    margin-bottom: 0;
+}
