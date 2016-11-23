@@ -9,34 +9,44 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/override.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet">
+    <link href="css/override.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
 </head>
 <body>
-<nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo">Logo</a>
-        <ul class="right hide-on-med-and-down">
-            <li><a href="#">Navbar Link</a></li>
-        </ul>
+<div class="navbar-fixed">
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">ZB</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#CONTACT">Contact Info</a></li>
+                <li><a href="#PORTFOLIO">Portfolio</a></li>
+                <li><a href="#SKILLS">Skills</a></li>
+            </ul>
 
-        <ul id="nav-mobile" class="side-nav">
-            <li><a href="#">Navbar Link</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-</nav>
-
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="#CONTACT">Contact Info</a></li>
+                <li><a href="#PORTFOLIO">Portfolio</a></li>
+                <li><a href="#SKILLS">Skills</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+</div>
 <div id="index-banner" class="parallax-container valign-wrapper headshot_contain">
     <div class="section no-pad-bot">
         <div class="container right title_wrapper">
             <br><br>
-            <h1 class="header center blue-text text-darken-3 name_title">Zach Benton</h1>
+            <h1 class="header center black-text name_title text_add_shadow">Zach Benton</h1>
             <div class="row center">
-                <h5 class="header col s12 blue-text text-darken-3">Solving problems one line at a time</h5>
+                <h5 class="header col s12 black-text text_add_shadow no-margin">Solving problems one line at a
+                    time.</h5>
             </div>
             <div class="row center">
-                <p class="header col s12 blue-text text-darken-3 flow-text">
+                <p class="header col s12 black-text flow-text text_add_shadow margin_top">
                     Logical and efficient web developer, with a strong foundation in Back-End Engineering.
                     My innate curiosity and desire to solve complex problems led me
                     to transition from a career in communications hardware to software engineering. I wanted a career I
@@ -44,17 +54,63 @@
                     learning.
                 </p>
             </div>
-            <div class="row center">
-                <!--<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>-->
-                <a href="resume.pdf">
-                    <i class="medium material-icons black-text">description</i>
-                </a>
-            </div>
-            <br><br>
-
         </div>
     </div>
-    <div class="parallax headshot"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax headshot"><img src="images/background1.jpg" alt="Unsplashed background img 1"></div>
+</div>
+
+
+<div id="CONTACT" class="container">
+    <div class="center"><h1>Contact me</h1></div>
+    <div class="section">
+        <div class="row">
+            <div class="col s3 center">
+                <p class="no-margin_bot">
+                    <i class="medium material-icons black-text">contact_phone</i>
+                <p class="no-margin hide-on-small-and-down">Zach Benton</p>
+                <p class="no-margin">615.200.5788</p>
+                </p>
+            </div>
+            <div class="col s3 center">
+                <p class="no-margin_bot">
+                    <a href="mailto:czachbenton@gmail.com?Subject=Hi%20Zach,%20from%20your%20portfolio" target="_top">
+                        <i class="medium material-icons black-text hoverable">email</i>
+                    </a>
+                <p class="no-margin hide-on-small-and-down">Send me an e-mail</p>
+                <p class="no-margin hide-on-med-and-up">e-mail</p>
+                </p>
+            </div>
+            <div class="col s3 center">
+                <p class="no-margin_bot">
+                    <a href="resume.pdf"><i class="medium material-icons black-text hoverable">description</i>
+                    </a>
+                <p class="no-margin hide-on-small-and-down">Take a look at my resume</p>
+                <p class="no-margin hide-on-med-and-up">resume</p>
+                </p>
+
+            </div>
+            <div class="col s3 center">
+                <p class="no-margin_bot">
+                    <a href="https://www.linkedin.com/in/zach-benton">
+                        <i class="medium material-icons black-text hoverable">perm_device_information</i>
+                    </a>
+                <p class="no-margin hide-on-small-and-down">Follow me on LinkedIn</p>
+                <p class="no-margin hide-on-med-and-up">LinkedIn</p>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="PORTFOLIO" class="parallax-container valign-wrapper parallax-size-reduce">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <div class="row center">
+                <h5 class="header col s12 light portfolio_title">Portfolio</h5>
+            </div>
+        </div>
+    </div>
+    <div class="parallax"><img src="images/mac4.jpg" alt="Unsplashed background img 2"></div>
 </div>
 
 
@@ -77,8 +133,16 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">MyBinge-TV<i
                                 class="material-icons right">more_vert</i></span>
-                        <p><a href="https://mybinge-tv.herokuapp.com">See More!</a><span style="font-size: xx-small"> (may need to wake up)</span>
-                        </p>
+                        <div class="card_links_wrapper row no-margin">
+                            <p class="card_link col s10">
+                                <a href="https://mybinge-tv.herokuapp.com">See More!</a>
+                            </p>
+                            <p class="github col s2">
+                                <a href="https://github.com/Czbenton/MyBingeTV">
+                                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Info:<i
@@ -100,7 +164,16 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Hangman<i
                                 class="material-icons right">more_vert</i></span>
-                        <p><a href="hangman.html">See More!</a></p>
+                        <div class="card_links_wrapper row no-margin">
+                            <p class="card_link col s10">
+                                <a href="hangman.html">See More!</a>
+                            </p>
+                            <p class="github col s2">
+                                <a href="https://github.com/Czbenton/HangmanGame">
+                                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Info:<i
@@ -119,7 +192,16 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">GameTracker<i
                                 class="material-icons right">more_vert</i></span>
-                        <p><a href="gametracker.html">See More!</a></p>
+                        <div class="card_links_wrapper row no-margin">
+                            <p class="card_link col s10">
+                                <a href="gametracker.html">See More!</a>
+                            </p>
+                            <p class="github col s2">
+                                <a href="https://github.com/Czbenton/GameTrackerSpring">
+                                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Info:<i
@@ -141,7 +223,16 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">CRUD-Spark<i
                                 class="material-icons right">more_vert</i></span>
-                        <p><a href="crud-spark.html">See More!</a><span style="font-size: xx-small"></span>
+                        <div class="card_links_wrapper row no-margin">
+                            <p class="card_link col s10">
+                                <a href="crud-spark.html">See More!</a>
+                            </p>
+                            <p class="github col s2">
+                                <a href="https://github.com/Czbenton/CRUD.html">
+                                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
                         </p>
                     </div>
                     <div class="card-reveal">
@@ -162,12 +253,22 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">IronGram<i
                                 class="material-icons right">more_vert</i></span>
-                        <p><a href="irongram.html">See More!</a></p>
+                        <div class="card_links_wrapper row no-margin">
+                            <p class="card_link col s10">
+                                <a href="irongram.html">See More!</a>
+                            </p>
+                            <p class="github col s2">
+                                <a href="https://github.com/Czbenton/IronGram/tree/develop">
+                                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Info:<i
                                 class="material-icons right">close</i></span>
-                        <p>IronGram was a fun project influenced by SnapChat. The idea was to use Java and Spring to post an image to a user,
+                        <p>IronGram was a fun project influenced by SnapChat. The idea was to use Java and Spring to
+                            post an image to a user,
                             then have the image auto-delete after a set time limit once that user has logged in.
                         </p>
                     </div>
@@ -180,9 +281,18 @@
                         <img class="activator" src="images/desktop-browser.png">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">JavaFX Desktop Browser<i
+                        <span class="card-title activator grey-text text-darken-4">JavaFX Desktop App<i
                                 class="material-icons right">more_vert</i></span>
-                        <p><a href="javafx.html">See More!</a></p>
+                        <div class="card_links_wrapper row no-margin">
+                            <p class="card_link col s10">
+                                <a href="javafx.html">See More!</a>
+                            </p>
+                            <p class="github col s2">
+                                <a href="https://github.com/Czbenton/JavaFX">
+                                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Info:<i
@@ -198,83 +308,46 @@
 </div>
 
 
-<div class="parallax-container valign-wrapper">
+<div id="SKILLS" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                <h5 class="header col s12 light portfolio_title">Skills</h5>
             </div>
         </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="images/background3.jpg" alt="Unsplashed background img 3"></div>
 </div>
 
-<div id="projects" class="container">
-    <div class="section">
-
-        <div class="row">
-            <div class="col s12 center">
-                <h3><i class="mdi-content-send brown-text"></i></h3>
-                <h4>Contact Us</h4>
-                <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque
-                    id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut
-                    ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem
-                    neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu
-                    mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum
-                    ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum
-                    primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-
-<div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-        <div class="container">
-            <div class="row center">
-                <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-            </div>
-        </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-</div>
-
-<footer class="page-footer teal">
+<footer class="page-footer white">
     <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Company Bio</h5>
-                <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's
-                    our full time job. Any amount would help support and continue development on this project and is
-                    greatly appreciated.</p>
-
-
+        <div class="row center">
+            <div class="col s12 m4">
+                <h4 class="no-margin_top">Languages</h4>
+                <p class="no-margin">Java</p>
+                <p class="no-margin">Scala</p>
+                <p class="no-margin">HTML</p>
+                <p class="no-margin">CSS</p>
             </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Settings</h5>
-                <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
-                    <li><a class="white-text" href="#!">Link 2</a></li>
-                    <li><a class="white-text" href="#!">Link 3</a></li>
-                    <li><a class="white-text" href="#!">Link 4</a></li>
-                </ul>
+            <div class="col s12 m4">
+                <h4 class="no-margin_top">Frameworks</h4>
+                <p class="no-margin">Spring Boot</p>
+                <p class="no-margin">Play</p>
+                <p class="no-margin">Spark</p>
+                <p class="no-margin">Sinatra</p>
             </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Connect</h5>
-                <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
-                    <li><a class="white-text" href="#!">Link 2</a></li>
-                    <li><a class="white-text" href="#!">Link 3</a></li>
-                    <li><a class="white-text" href="#!">Link 4</a></li>
-                </ul>
+            <div class="col s12 m4">
+                <h4 class="no-margin_top">Technologies</h4>
+                <p class="no-margin">GitHub</p>
+                <p class="no-margin">Unix</p>
+                <p class="no-margin">CLI</p>
+                <p class="no-margin">Postman</p>
             </div>
         </div>
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright white">
         <div class="container">
-            <div class="right">Zach Benton - czachbenton@gmail.com - 615.200.5788</div>
+            <div class="center black-text">Zach Benton - czachbenton@gmail.com - 615.200.5788</div>
         </div>
     </div>
 </footer>
