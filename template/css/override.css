@@ -27,7 +27,7 @@ html{
 }
 
 .portfolio_title {
-    font-size: 3rem;
+    font-size: 5rem;
     text-shadow: 1px 1px black;
     font-variant: small-caps;
 }
@@ -58,4 +58,8 @@ html{
 
 .margin_top {
     margin-top: 5rem;
+}
+
+.fa{
+    color: #383838;
 }
