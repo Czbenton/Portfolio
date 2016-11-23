@@ -28,6 +28,10 @@
     font-variant: small-caps;
 }
 
+.parallax-size-reduce{
+    min-height: 300px;
+}
+
 .no-margin{
     margin: 0;
 }
@@ -36,6 +40,14 @@
     margin-bottom: 0;
 }
 
+.no-margin_top{
+    margin-top: 0;
+}
+
 .brand-logo{
     font-family: 'Droid Serif', serif;
+}
+
+.github{
+
 }

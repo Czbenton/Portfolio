@@ -12,6 +12,8 @@
     <link href="css/override.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
 </head>
 <body>
 <nav class="white" role="navigation">
@@ -23,8 +25,8 @@
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
-            <li><a href="index.html#CONTACT">Contact Info</a></li>
-            <li><a href="index.html#PORTFOLIO">Portfolio</a></li>
+            <li><a href="#CONTACT">Contact Info</a></li>
+            <li><a href="#PORTFOLIO">Portfolio</a></li>
         </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -96,7 +98,7 @@
     </div>
 </div>
 
-<div id="PORTFOLIO" class="parallax-container valign-wrapper">
+<div id="PORTFOLIO" class="parallax-container valign-wrapper parallax-size-reduce">
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row center">
@@ -127,8 +129,12 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">MyBinge-TV<i
                                 class="material-icons right">more_vert</i></span>
-                        <p><a href="https://mybinge-tv.herokuapp.com">See More!</a><span style="font-size: xx-small"> (may need to wake up)</span>
-                        </p>
+                        <div class="card_links_wrapper row no-margin">
+                            <p class="card_link col s10">
+                                <a href="https://mybinge-tv.herokuapp.com">See More!</a>
+                            </p>
+                            <p class="github col s2"><i class="fa fa-github fa-2x" aria-hidden="true"></i></p>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Info:<i
@@ -150,7 +156,12 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Hangman<i
                                 class="material-icons right">more_vert</i></span>
-                        <p><a href="hangman.html">See More!</a></p>
+                        <div class="card_links_wrapper row no-margin">
+                            <p class="card_link col s10">
+                                <a href="hangman.html">See More!</a>
+                            </p>
+                            <p class="github col s2"><i class="fa fa-github fa-2x" aria-hidden="true"></i></p>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Info:<i
@@ -169,7 +180,12 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">GameTracker<i
                                 class="material-icons right">more_vert</i></span>
-                        <p><a href="gametracker.html">See More!</a></p>
+                        <div class="card_links_wrapper row no-margin">
+                            <p class="card_link col s10">
+                                <a href="gametracker.html">See More!</a>
+                            </p>
+                            <p class="github col s2"><i class="fa fa-github fa-2x" aria-hidden="true"></i></p>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Info:<i
@@ -191,7 +207,12 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">CRUD-Spark<i
                                 class="material-icons right">more_vert</i></span>
-                        <p><a href="crud-spark.html">See More!</a><span style="font-size: xx-small"></span>
+                            <div class="card_links_wrapper row no-margin">
+                        <p class="card_link col s10">
+                            <a href="crud-spark.html">See More!</a>
+                        </p>
+                        <p class="github col s2"><i class="fa fa-github fa-2x" aria-hidden="true"></i></p>
+                    </div>
                         </p>
                     </div>
                     <div class="card-reveal">
@@ -212,7 +233,12 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">IronGram<i
                                 class="material-icons right">more_vert</i></span>
-                        <p><a href="irongram.html">See More!</a></p>
+                        <div class="card_links_wrapper row no-margin">
+                            <p class="card_link col s10">
+                                <a href="irongram.html">See More!</a>
+                            </p>
+                            <p class="github col s2"><i class="fa fa-github fa-2x" aria-hidden="true"></i></p>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Info:<i
@@ -231,9 +257,14 @@
                         <img class="activator" src="images/desktop-browser.png">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">JavaFX Desktop Browser<i
+                        <span class="card-title activator grey-text text-darken-4">JavaFX Desktop App<i
                                 class="material-icons right">more_vert</i></span>
-                        <p><a href="javafx.html">See More!</a></p>
+                        <div class="card_links_wrapper row no-margin">
+                            <p class="card_link col s10">
+                                <a href="javafx.html">See More!</a>
+                            </p>
+                            <p class="github col s2"><i class="fa fa-github fa-2x" aria-hidden="true"></i></p>
+                        </div>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Info:<i
@@ -264,25 +295,25 @@
     <div class="container">
         <div class="row center">
             <div class="col s12 m4">
-                <h4>Languages</h4>
-                <p>Java</p>
-                <p>Scala</p>
-                <p>HTML</p>
-                <p>CSS</p>
+                <h4 class="no-margin_top">Languages</h4>
+                <p class="no-margin">Java</p>
+                <p class="no-margin">Scala</p>
+                <p class="no-margin">HTML</p>
+                <p class="no-margin">CSS</p>
             </div>
             <div class="col s12 m4">
-                <h4>Frameworks</h4>
-                <p>Spring Boot</p>
-                <p>Play</p>
-                <p>Spark</p>
-                <p>Sinatra</p>
+                <h4 class="no-margin_top">Frameworks</h4>
+                <p class="no-margin">Spring Boot</p>
+                <p class="no-margin">Play</p>
+                <p class="no-margin">Spark</p>
+                <p class="no-margin">Sinatra</p>
             </div>
             <div class="col s12 m4">
-                <h4>Technologies</h4>
-                <p>GitHub</p>
-                <p>Unix</p>
-                <p>CLI</p>
-                <p>Postman</p>
+                <h4 class="no-margin_top">Technologies</h4>
+                <p class="no-margin">GitHub</p>
+                <p class="no-margin">Unix</p>
+                <p class="no-margin">CLI</p>
+                <p class="no-margin">Postman</p>
             </div>
         </div>
     </div>
