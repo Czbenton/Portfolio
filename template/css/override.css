@@ -63,3 +63,11 @@ html{
 .fa{
     color: #383838;
 }
+
+.background_transparent{
+    background-color: rgba(255,255,255,0.5);
+}
+
+#sidenav-overlay {
+    z-index: 0;
+}
