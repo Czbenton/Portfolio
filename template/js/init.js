@@ -1,7 +1,12 @@
 (function($){
   $(function(){
 
-    $('.button-collapse').sideNav();
+    $('.button-collapse').sideNav({
+      menuWidth: 300,
+      edge: 'left',
+      closeOnClick: true,
+      draggable: true
+    });
     $('.parallax').parallax();
 
     var options = [
