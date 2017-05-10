@@ -1,4 +1,4 @@
-html{
+html {
     font-family: 'Dosis', sans-serif;
 }
 
@@ -52,20 +52,18 @@ html{
     font-family: 'Droid Serif', serif;
 }
 
-.github {
-
-}
+.github {}
 
 .margin_top {
     margin-top: 5rem;
 }
 
-.fa{
+.fa {
     color: #383838;
 }
 
-.background_transparent{
-    background-color: rgba(255,255,255,0.5);
+.background_transparent {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #sidenav-overlay {
